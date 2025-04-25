@@ -128,6 +128,10 @@ Frequently Asked Questions
 
     :verbose imap <tab>
 
+  If this is not mapped, it may be because you are using an older version of vim
+  (< 8.0). Upstream claims to require either nvim or vim9+, but I cannot figure
+  out what functionality added in vim9 is actually needed.
+
   If supertab has been loaded and the insert mapping looks correct, make sure
   you don't have the `paste` option enabled in your vimrc or elsewhere. When
   that option is enabled, all insert mappings are disabled. You can run the
